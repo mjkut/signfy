@@ -25,6 +25,13 @@ export default function HomePage() {
       <p className="text-lg text-gray-700">
         🔌 Backend Status: <strong>{status}</strong>
       </p>
+
+      <a
+  href="/camera"
+  className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700"
+>
+  Open Camera for Sign-to-Text
+</a>
     </main>
   )
 }
